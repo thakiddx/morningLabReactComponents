@@ -5,6 +5,7 @@ import SimpleInput from './components/Component2/simpleInput';
 import RandomName from './components/Component3/randomName';
 import AddNames from './components/Component4/addNames';
 import ToggleTheme from './components/Component5/toggleTheme';
+import ProductDetailsToggle from './components/Component6/productDetailsToggle';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <RandomName />
       <AddNames />
       <ToggleTheme />
+      <ProductDetailsToggle />
       {/* Other components or content */}
     </div>
   );
