@@ -1,17 +1,15 @@
-import React, { useState } from 'react'
-import './App.css'
-import Counter from './components/Component1/counter'
+import React from 'react';
+import Component1 from './components/Component1/counter';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-      <div>
-        <h1>React MorningLab Components</h1>
-        <Counter count={count} />  
-        </div>
+    <div>s
+      <h1>My React App</h1>
+      <Component1 />
+      {/* Other components or content */}
+    </div>
   );
 }
 
-export default App
-q
+export default App;
